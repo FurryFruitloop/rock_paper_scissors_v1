@@ -36,6 +36,11 @@ if user_choice == 1:
   print(paper)
 if user_choice == 2:
   print(scissors)
+if user_choice >= 3:
+  print("This is not a valid choice. Restart program until I figure out how to do it for you.")
+
+# Else statement instead to include all incorrect input? Not just integer values of 3 and above.
+# Loop back to restart program and not include random computer generation despite incorrect user input
 
 computer_choice = random.randint(0, 2)
 
